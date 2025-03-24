@@ -6,7 +6,7 @@ HTTP：80，8080，8880，2052，2082，2086，2095
 HTTPS：443，2053，2083，2087，2096，8443
 ~~~
 
-## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=uh27CVVi6HA&t=31s)
+## Workers 
 <details>
 <summary>点击展开/收起</summary>
 	
@@ -33,14 +33,14 @@ HTTPS：443，2053，2083，2087，2096，8443
 
 </details>
 
-## Pages 上传 部署方法 [视频教程](https://www.youtube.com/watch?v=wgeM9XvZ5RA&t=1738s)
+## Pages 上传 
 <details>
 <summary>点击展开/收起</summary>
 	
 1. 部署 Cloudflare Pages：
    - 下载 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-trojan/main/_worker.js.zip) 文件，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `上传资产`后，为你的项目取名后点击 `创建项目`，然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-trojan/main/_worker.js.zip) 文件后点击 `部署站点`。
-2. 给 Pages绑定 CNAME自定义域：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
+2. 给 Pages绑定 CNAME自定义域：
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      您分配到的域名是 `amclubss.com`，则添加自定义域填入 `trojan.amclubss.com`即可，点击 `激活域`即可。    
@@ -62,7 +62,7 @@ HTTPS：443，2053，2083，2087，2096，8443
 
 </details>
 
-## Pages GitHub 部署方法 [视频教程](https://www.youtube.com/watch?v=uh27CVVi6HA&t=511s)
+
 <details>
 <summary>点击展开/收起</summary>
 	
@@ -70,7 +70,7 @@ HTTPS：443，2053，2083，2087，2096，8443
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `连接到 Git`后，选中 `am-cf-tunnel`项目后点击 `开始设置`。
    - 在 `设置构建和部署`页面下方，后点击 `保存并部署`即可。
-2. 给 Pages绑定 CNAME自定义域：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
+2. 给 Pages绑定 CNAME自定义域：
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      您分配到的域名是 `amclubss.com`，则添加自定义域填入 `trojan.amclubss.com`即可，点击 `激活域`即可。    
@@ -92,7 +92,7 @@ HTTPS：443，2053，2083，2087，2096，8443
 
 </details>
 
-## 变量说明 [视频教程](https://www.youtube.com/watch?v=ag12Rpc9KP4&t=739s)
+## 变量说明
 | 变量名 | 示例 | 必填 | 备注 | YT |
 |-----|-----|-----|-----|-----|
 | PASSWORD         | auto （默认值）               |✅| 节点的密码，可以取任意值                                       |  |
@@ -113,7 +113,7 @@ HTTPS：443，2053，2083，2087，2096，8443
 | TG_TOKEN        | 6823456:XXXXXXX0qExVUhHDAbXXXqWXgBA   |❌| 发送TG通知的机器人token                       ||
 | TG_ID           | 6946912345                            |❌ | 接收TG通知的账户数字ID                                       ||
 
-## 五、已适配订阅工具 [点击进入视频教程](https://youtu.be/xGOL57cmvaw) [点进进入karing视频教程](https://youtu.be/M3vLLBWfuFg)
+## 五、已适配订阅工具 
 - Mac（苹果电脑）
    - [v2rayU](https://github.com/yanue/V2rayU/releases) | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) |  [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118) | [surge](https://apps.apple.com/us/app/surge-5/id1442620678) | [karing](https://karing.app/download) | [sing-box](https://github.com/SagerNet/sing-box/releases)  | [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) | [openclash](https://github.com/vernesong/OpenClash/releases) | [Hiddify](https://github.com/hiddify/hiddify-next/releases)
 
@@ -130,17 +130,7 @@ HTTPS：443，2053，2083，2087，2096，8443
    - [openclash(clash.meta)](https://github.com/vernesong/OpenClash/releases)
   
  # 
-<center>
-<details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
-*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
-
-- **USDT-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
-- **TRX-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
-
-<div align="center"> 
-  <img src="https://github.com/user-attachments/assets/e6cdc42a-6374-4722-b833-601738f72196" width="200"></br> 
-  TRC10/TRC20扫码支付 
-</div> 
+ 
 </details>
 </center>
 
